@@ -1,0 +1,18 @@
+body{
+    background: black;
+}
+.aboutMe{
+    width: 100%;
+    height: 500px;
+    background: url('/assets/images/aboutMe.jpeg');
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background:cover;
+}
+.aboutMeContent{
+    color: white; 
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center; 
+    position: absolute; 
+    bottom: 0;
+}
