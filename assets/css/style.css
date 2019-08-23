@@ -2,10 +2,10 @@ body{
     background: black;
 }
 
-.dropdown-trigger,.material-icons{
+.dropdown-trigger{
     background: black; 
     border-color: black;
     color: white;
     float: right; 
-   
+
 }
