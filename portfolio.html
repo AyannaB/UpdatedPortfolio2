@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portfolio</title>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel = 'stylesheet' href = '/assets/css/style.css'>
+</head>
+<body>
+    
+
+    <!-- Dropdown Trigger -->
+<button class='dropdown-trigger' href='#' data-target='dropdown1' ><i class="medium material-icons">menu</i></button>
+
+<!-- Dropdown Structure -->
+<ul id='dropdown1' class='dropdown-content'>
+  <li><a href="index.html">Home</a></li>
+  <!-- <li><a href="#!">two</a></li>
+  <li class="divider" tabindex="-1"></li>
+  <li><a href="#!">three</a></li>
+  <li><a href="#!"><i class="material-icons">view_module</i>four</a></li>
+  <li><a href="#!"><i class="material-icons">cloud</i>five</a></li> -->
+</ul>
+
+<h1>Projects</h1>
+
+<div class = 'container'>
+<div class="divider"></div>
+  <div class="section">
+    <img src = '/assets/images/foods2.jpg' class = 'image' style = 'width:100%'>
+    <div class="middle">
+        <div class="text"><a href = ' https://github.com/1nikita24/GoodEatsFood'>Good Eats</a></div>
+      </div>
+  </div>
+</div>
+<div class = 'container'>
+  <div class="divider"></div>
+  <div class="section">
+      <img src = '/assets/images/devrus.jpg' class = 'image' style = 'width:100%'>
+      <div class="middle">
+          <div class="text"><a href ='https://thawing-sea-29788.herokuapp.com/'> DevR'Us</a></div>
+        </div>
+    </div>
+  </div>
+  <div class = 'container'>
+  <div class="divider"></div>
+  <div class="section">
+      <img src = '/assets/images/devrus.jpg' class = 'image' style = 'width:100%'>
+      <div class="middle">
+          <div class="text">DevR'Us Redux</div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script>
+  $(document).ready(()=>{
+    $('.dropdown-trigger').dropdown();
+  });
+</script>   
+</body>
+</html>
